@@ -14,8 +14,8 @@ First, prepare your local environment by cloning the repository, creating a virt
 
 ```bash
 # Clone the repository
-git clone <repository_url>
-cd KG_RAG
+git clone git clone https://github.com/maszhongming/CS-598-JH-Assignment
+cd CS-598-JH-Assignment
 
 # Create and activate a conda virtual environment
 conda create -n kg_rag python=3.10.9
@@ -32,7 +32,7 @@ python -m kg_rag.run_setup
 
 Configure your Google API key to use the Gemini model. The recommended LLM for this assignment is **Gemini-2.0-flash**, which is used for Disease Entity Extraction and Answer Generation.
 
-  * **Get Your API Key**: You can set up your API key for free by visiting [this link](https://makersuite.google.com/app/apikey)
+  * **Get Your API Key**: You can set up your API key for free by visiting [this link](https://makersuite.google.com/app/apikey).
   * **Free Credits & Rate Limits**: While there are free credits available, please be aware of the daily rate limits. Plan your project schedule accordingly to avoid interruptions.
   * **Update Config File**: Add your API key to the `gpt_config.env` file.
 
