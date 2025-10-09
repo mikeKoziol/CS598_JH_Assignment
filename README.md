@@ -14,7 +14,7 @@ First, prepare your local environment by cloning the repository, creating a virt
 
 ```bash
 # Clone the repository
-git clone git clone https://github.com/maszhongming/CS-598-JH-Assignment
+git clone https://github.com/maszhongming/CS-598-JH-Assignment
 cd CS-598-JH-Assignment
 
 # Create and activate a conda virtual environment
